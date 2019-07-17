@@ -1,59 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Title goes here</title>
-    <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.55.6" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="John Doe" />
-    <meta name="description" content="" />
-    <link rel="stylesheet" href="https://ccsplit.github.io/css/main.min.59023e5fd38d6ecb0e1dfbb295077c3c67e00e3b9eb3feaf34b5a5e6b332897a.css" />
+  <title>Title goes here</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My blog" />
+  <meta name="author" content="Cory Shay" />
+  <meta name="generator" content="mero theme by Darshan in Hugo 0.55.6" />
 
-    
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Title goes here"/>
-<meta name="twitter:description" content=""/>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
 
-    <meta property="og:title" content="Title goes here" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://ccsplit.github.io/" />
+  <script src="/js/mero.js"></script>
+</head>
 
-
-
-  </head>
-  <body>
-    <header class="app-header">
-      <a href="https://ccsplit.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
-      <h1>Title goes here</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
-      <div class="app-header-social">
-        
-          <a target="_blank" href="https://github.com/ccsplit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
-  <title>github</title>
-  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-</svg></a>
-        
-          <a target="_blank" href="https://twitter.com/ccsplit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
-  <title>twitter</title>
-  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-</svg></a>
-        
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+        </ul>
       </div>
-    </header>
-    <main class="app-container">
-      
-  <article>
-    <h1>Title goes here</h1>
-    <ul class="posts-list">
-      
-    </ul>
-    
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Taxa</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
 
+      <main>
+        
+<div class="d-flex flex-row flex-wrap justify-content-around">
+  <div class="mt-4 home-flex-item" style="width: calc(35% - 20px); min-width: 250px;">
+    <img class="w-100 rounded mb-2" src="/images/main.jpeg" />
+<div class="d-flex justify-content-center mt-2">
+  
+  <div class="ml-1 mr-1" style="width: 40px; height: 40px;">
+    <a href="https://github.com/ccsplit">
+      <i class="social-icon fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div class="ml-1 mr-1" style="width: 40px; height: 40px;">
+    <a href="https://twitter.com/ccsplit">
+      <i class="social-icon fab fa-twitter"></i>
+    </a>
+  </div>
+  
+  <div class="ml-1 mr-1" style="width: 40px; height: 40px;">
+    <a href="https://stackoverflow.com/users/6061947/cory-shay">
+      <i class="social-icon fab fa-stack-overflow"></i>
+    </a>
+  </div>
+  
+</div>
 
+  </div>
 
-  </article>
+  <div class="home-flex-item mt-4" style="width: calc(65% - 20px);">
+    <div class="position-relative border rounded p-2" style="margin-bottom: 40px;">
+      <h4
+  class="pl-2 pr-2 bg-dark rounded border"
+  style="position: absolute; top: -1rem; right: 0.5em;"
+>
+  <b>About</b>
+</h4>
+<h1>I am Cory Shay.</h1>
+<p><strong>This website</strong> is my blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    </main>
+    </div>
+    <div class="home-flex-item position-relative p-2 border rounded text-center">
+      <h4
+  class="pl-2 pr-2 bg-dark rounded border"
+  style="position: absolute; top: -0.7em; left: 0.5em;"
+>
+  <b>Recent</b>
+</h4>
+
+<div class="pt-2">
+  
+  <p class="text-right m-0">
+    <a href="/archive/">See All</a>
+  </p>
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-50 bg-danger ml-auto mr-auto mt-4" style="height: 2px;"></div>
+  <div class="mt-4 mb-2" style="font-size: 0.9em;">
+    <p class="text-center">
+      &copy; 2019 Cory Shay |
+      <a href="https://github.com/darshanbaral/mero.git">mero</a> theme by
+      <a href="https://www.darshanbaral.com">Darshan</a>
+    </p>
+  </div>
+</footer>
+
   </body>
 </html>
